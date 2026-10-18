@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../Img/WallPaper.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{ 
+    width: 480px;
+    height: 580px;
+    background-color: rgba(250, 247, 255, 0.45);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: #000;
+    padding: 70px 40px;    
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15); 
+}
+
+.imagem-container {       
+    position: absolute;
+    right: 400px;
+    top: 8%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+
+}
+
+.container p {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin: 20px 0px;
+} 
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(8, 7, 7, 0.5);
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+    padding: 0px 45px 0px 40px;
+    margin: 0;
+
+}
+
+.input-box button{
+    width: 100%;
+    height: 100%;
+    background-color: #181818;
+    border: 2px solid rgba(8, 7, 7, 0.5);
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fcfcfc;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.input-box button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(8, 7, 7, 0.5);
+    color: #000;
+}
+
+.input-box i{ 
+    position: absolute;
+    right: 20px;
+    top: 100%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.footer-1{
+    text-align: center; 
+}
+
+
+
